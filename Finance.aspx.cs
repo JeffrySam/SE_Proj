@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace SE_Proj
 {
-    public partial class About : Page
+    public partial class Finance : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
