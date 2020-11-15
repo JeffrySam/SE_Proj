@@ -1,11 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Finance.aspx.cs" Inherits="SE_Proj.Finance" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Sales.aspx.cs" Inherits="SE_Proj.Sales" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 
-    <title>Finance Portal</title>
+   <title>Sales Portal</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -99,40 +99,34 @@
     </div>
     <div class="col-sm-8 text-center"> 
       <h class="t">
-          Finance Admin Portal
+          Sales Admin Portal
       </h>
       <h3 class="a">
           <br />
-          Welcome to the Finance Admin Portal. Below are 4 links which will redirect you to different pages to complete the following task.
+          Welcome to the Sales Admin Portal. Below are 3 links which will redirect you to different pages to complete the following task.
       </h3>
 
         <div class="r">
            <br />
             <br />
-            <strong><asp:Label ID="Label1" runat="server" Text="(Displays finanical reports of the company within 10 year intervals):" ForeColor="Red"></asp:Label></strong>
-            <a href="#"><span class=""></span> Finance Reports</a>
+            <strong><asp:Label ID="Label1" runat="server" Text="(Displays Company Sales within a 10 year time frame):" ForeColor="Red"></asp:Label></strong>
+            <a href="#"><span class=""></span>Sales Reports</a>
        </div>
 
       <div class="r">
           <br />
           <br />
-          <strong><asp:Label ID="Label2" runat="server" Text="(Displays Company's Payable Acccount Information):" ForeColor="Red"></asp:Label></strong>
-          <a href="#"><span class=""></span> Accounts Payable</a>
+          <strong><asp:Label ID="Label2" runat="server" Text="(Ranking of employees with the most sales within the company):" ForeColor="Red"></asp:Label></strong>
+          <a href="#"><span class=""></span> Sales Leads</a>
       </div>
 
       <div class="r">
           <br />
           <br />
-          <strong><asp:Label ID="Label3" runat="server" Text="(Displays Company's Receivable Acccount Information):" ForeColor="Red"></asp:Label></strong>
-          <a href="#"><span class=""></span> Accounts Receivable</a>
+          <strong><asp:Label ID="Label3" runat="server" Text="(Displays Employees names presenting demos):" ForeColor="Red"></asp:Label></strong>
+          <a href="#"><span class=""></span> Sales Demo</a>
       </div>
 
-      <div class ="r">
-          <br />
-          <br />
-          <strong><asp:Label ID="Label4" runat="server" Text="(Displays Company's Tax Information within 10 year intervals):" ForeColor="Red"></asp:Label></strong>
-          <a href="#"><span class=""></span> Tax</a>
-      </div>
 
     </div>
     <div class="col-sm-2 sidenav">
@@ -142,5 +136,3 @@
 </body>
 </html>
 
-
-   

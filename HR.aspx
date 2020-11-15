@@ -1,11 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Finance.aspx.cs" Inherits="SE_Proj.Finance" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HR.aspx.cs" Inherits="SE_Proj.HR" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 
-    <title>Finance Portal</title>
+ <title>HR Portal</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -99,39 +99,46 @@
     </div>
     <div class="col-sm-8 text-center"> 
       <h class="t">
-          Finance Admin Portal
+          HR Admin Portal
       </h>
       <h3 class="a">
           <br />
-          Welcome to the Finance Admin Portal. Below are 4 links which will redirect you to different pages to complete the following task.
+          Welcome to the HR Admin Portal. Below are 5 links which will redirect you to different pages to complete the following task.
       </h3>
 
         <div class="r">
            <br />
             <br />
-            <strong><asp:Label ID="Label1" runat="server" Text="(Displays finanical reports of the company within 10 year intervals):" ForeColor="Red"></asp:Label></strong>
-            <a href="#"><span class=""></span> Finance Reports</a>
+            <strong><asp:Label ID="Label1" runat="server" Text="(Displays personal information of new hires):" ForeColor="Red"></asp:Label></strong>
+            <a href="#"><span class=""></span> New Hire On-Boarding</a>
        </div>
 
       <div class="r">
           <br />
           <br />
-          <strong><asp:Label ID="Label2" runat="server" Text="(Displays Company's Payable Acccount Information):" ForeColor="Red"></asp:Label></strong>
-          <a href="#"><span class=""></span> Accounts Payable</a>
+          <strong><asp:Label ID="Label2" runat="server" Text="(Displays the benefits  employees can earn with the company):" ForeColor="Red"></asp:Label></strong>
+          <a href="#"><span class=""></span> Benefits</a>
       </div>
 
       <div class="r">
           <br />
           <br />
-          <strong><asp:Label ID="Label3" runat="server" Text="(Displays Company's Receivable Acccount Information):" ForeColor="Red"></asp:Label></strong>
-          <a href="#"><span class=""></span> Accounts Receivable</a>
+          <strong><asp:Label ID="Label3" runat="server" Text="(Displays Employee's Payroll Information):" ForeColor="Red"></asp:Label></strong>
+          <a href="#"><span class=""></span> Payroll</a>
       </div>
 
       <div class ="r">
           <br />
           <br />
-          <strong><asp:Label ID="Label4" runat="server" Text="(Displays Company's Tax Information within 10 year intervals):" ForeColor="Red"></asp:Label></strong>
-          <a href="#"><span class=""></span> Tax</a>
+          <strong><asp:Label ID="Label4" runat="server" Text="(Records of past employess who have left the company within a 10 year interval):" ForeColor="Red"></asp:Label></strong>
+          <a href="#"><span class=""></span> Off-boarding</a>
+      </div>
+
+      <div class ="r">
+          <br />
+          <br />
+          <strong><asp:Label ID="Label5" runat="server" Text="(Past and current reports filed by HR representatives):" ForeColor="Red"></asp:Label></strong>
+          <a href="#"><span class=""></span> HR Reports</a>
       </div>
 
     </div>
@@ -141,6 +148,3 @@
 </div>
 </body>
 </html>
-
-
-   
