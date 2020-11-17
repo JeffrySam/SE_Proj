@@ -39,7 +39,7 @@
 
     div.r
     {
-        font-size: 18px;
+        font-size: 16px;
         text-align:center;
 
     }
@@ -47,7 +47,7 @@
     h.a
     {
         text-align: left;
-        font-size: 15px;
+        font-size: 12px;
     }
 
     h.t
@@ -109,35 +109,35 @@
         <div class="r">
            <br />
             <br />
-            <strong><asp:Label ID="Label1" runat="server" Text="(Displays personal information of new hires):" ForeColor="Red"></asp:Label></strong>
+            <strong><asp:Label ID="Label1" runat="server" Text="(Displays personal information of new hires):" ForeColor="Red" Font-Italic="True"></asp:Label></strong>
             <a href="#"><span class=""></span> New Hire On-Boarding</a>
        </div>
 
       <div class="r">
           <br />
           <br />
-          <strong><asp:Label ID="Label2" runat="server" Text="(Displays the benefits  employees can earn with the company):" ForeColor="Red"></asp:Label></strong>
+          <strong><asp:Label ID="Label2" runat="server" Text="(Displays the benefits  employees can earn with the company):" ForeColor="Red" Font-Italic="True"></asp:Label></strong>
           <a href="#"><span class=""></span> Benefits</a>
       </div>
 
       <div class="r">
           <br />
           <br />
-          <strong><asp:Label ID="Label3" runat="server" Text="(Displays Employee's Payroll Information):" ForeColor="Red"></asp:Label></strong>
+          <strong><asp:Label ID="Label3" runat="server" Text="(Displays Employee's Payroll Information):" ForeColor="Red" Font-Italic="True"></asp:Label></strong>
           <a href="#"><span class=""></span> Payroll</a>
       </div>
 
       <div class ="r">
           <br />
           <br />
-          <strong><asp:Label ID="Label4" runat="server" Text="(Records of past employess who have left the company within a 10 year interval):" ForeColor="Red"></asp:Label></strong>
+          <strong><asp:Label ID="Label4" runat="server" Text="(Records of past employess who have left the company within a 10 year interval):" ForeColor="Red" Font-Italic="True"></asp:Label></strong>
           <a href="#"><span class=""></span> Off-boarding</a>
       </div>
 
       <div class ="r">
           <br />
           <br />
-          <strong><asp:Label ID="Label5" runat="server" Text="(Past and current reports filed by HR representatives):" ForeColor="Red"></asp:Label></strong>
+          <strong><asp:Label ID="Label5" runat="server" Text="(Past and current reports filed by HR representatives):" ForeColor="Red" Font-Italic="True"></asp:Label></strong>
           <a href="#"><span class=""></span> HR Reports</a>
       </div>
 

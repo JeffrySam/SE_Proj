@@ -39,7 +39,7 @@
 
     div.r
     {
-        font-size: 18px;
+        font-size: 16px;
         text-align:center;
 
     }
@@ -47,7 +47,7 @@
     h.a
     {
         text-align: left;
-        font-size: 15px;
+        font-size: 12px;
     }
 
     h.t
@@ -109,28 +109,28 @@
         <div class="r">
            <br />
             <br />
-            <strong><asp:Label ID="Label1" runat="server" Text="(Displays finanical reports of the company within 10 year intervals):" ForeColor="Red"></asp:Label></strong>
+            <strong><asp:Label ID="Label1" runat="server" Text="(Displays finanical reports of the company within 10 year intervals):" ForeColor="Red" Font-Italic="True"></asp:Label></strong>
             <a href="#"><span class=""></span> Finance Reports</a>
        </div>
 
       <div class="r">
           <br />
           <br />
-          <strong><asp:Label ID="Label2" runat="server" Text="(Displays Company's Payable Acccount Information):" ForeColor="Red"></asp:Label></strong>
+          <strong><asp:Label ID="Label2" runat="server" Text="(Displays Company's Payable Acccount Information):" ForeColor="Red" Font-Italic="True"></asp:Label></strong>
           <a href="#"><span class=""></span> Accounts Payable</a>
       </div>
 
       <div class="r">
           <br />
           <br />
-          <strong><asp:Label ID="Label3" runat="server" Text="(Displays Company's Receivable Acccount Information):" ForeColor="Red"></asp:Label></strong>
+          <strong><asp:Label ID="Label3" runat="server" Text="(Displays Company's Receivable Acccount Information):" ForeColor="Red" Font-Italic="True"></asp:Label></strong>
           <a href="#"><span class=""></span> Accounts Receivable</a>
       </div>
 
       <div class ="r">
           <br />
           <br />
-          <strong><asp:Label ID="Label4" runat="server" Text="(Displays Company's Tax Information within 10 year intervals):" ForeColor="Red"></asp:Label></strong>
+          <strong><asp:Label ID="Label4" runat="server" Text="(Displays Company's Tax Information within 10 year intervals):" ForeColor="Red" Font-Italic="True"></asp:Label></strong>
           <a href="#"><span class=""></span> Tax</a>
       </div>
 
