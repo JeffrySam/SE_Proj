@@ -30,6 +30,11 @@
                         <p class="lead">Welcome, please login using verified admin credentials.</p>
                     </div>                                        
                 </div>
+                <div class="row" id="err" runat="server">
+                    <div class="alert alert-danger">
+                        The Username or Password is incorrect.
+                    </div>
+                </div>
                 <div class="row text-center">
                     <div class="col-md-12">
                         <h2>Login</h2>
@@ -37,7 +42,7 @@
                 </div>
                 <br />
                 <div class="row">
-                    <div class="container text-center">
+                    <div class="row text-center">
                         <form id="login" name="login" runat="server">
                             <div class="row">
                                 <label for="uname"><b>Username</b></label>
@@ -50,7 +55,7 @@
                             </div>
                             <br />
                             <div class="row">
-                                <button type="submit">Login</button>
+                                <asp:Button ID="LoginButton" runat="server" Text="Login" OnClick="loginCheck" />
                             </div>   
                         </form>                                             
                       </div>
