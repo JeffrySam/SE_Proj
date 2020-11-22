@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
+using System.Configuration;
 
 namespace SE_Proj
 {
@@ -16,13 +17,13 @@ namespace SE_Proj
         }
         protected void loginCheck(object sender, EventArgs e)
         {
-            SqlConnection link = new SqlConnection(ConfigurationManager.ConnectionStrings["fuelSite"].ConnectionString);
+            SqlConnection link = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
             link.Open();
 
             var user = Request["uname"].ToString();
             var pass = Request["psw"].ToString();
 
-            string userQuery = "SELECT count(*) FROM Registration WHERE Username= '" + user + "'";
+            string userQuery = "SELECT count(*) FROM [Table] WHERE Username= '" + user + "'";
 
             SqlCommand com = new SqlCommand(userQuery, link);
             int check = Convert.ToInt32(com.ExecuteScalar().ToString());
@@ -31,17 +32,17 @@ namespace SE_Proj
             if (check > 0)
             {
                 link.Open();
-                string passQuery = "SELECT Password FROM Registration WHERE Username= '" + user + "'";
+                string passQuery = "SELECT Password FROM [Table] WHERE Username= '" + user + "'";
                 SqlCommand passcom = new SqlCommand(passQuery, link);
-                link.Close();
+                
 
                 if (pass == passcom.ExecuteScalar().ToString().Trim())
                 {
-                    link.Open();
-                    string roleQuery = "SELECT Admin_Type FROM Registration where Username= '" + user + "'";
+                    //link.Open();
+                    string roleQuery = "SELECT Admin_Type FROM [Table] where Username= '" + user + "'";
                     SqlCommand rolecom = new SqlCommand(roleQuery, link);
                     string role = rolecom.ExecuteScalar().ToString().Trim();
-                    link.Close();
+                    //link.Close();
 
                     switch (role)
                     {
@@ -73,6 +74,7 @@ namespace SE_Proj
                 {
                     err.Visible = true;
                 }
+                link.Close();
             }
             else
             {

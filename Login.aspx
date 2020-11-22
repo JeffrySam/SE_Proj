@@ -22,7 +22,7 @@
 <body>
     <div class="container-fluid-2">
         <div class="row">
-            <div class="col-md-2" style="background-color:lightblue;"></div>
+            
             <div class="col-md-8">
                 <div class="row">
                     <div class="jumbotron text-center">
@@ -61,7 +61,7 @@
                       </div>
                 </div>
             </div>
-            <div class="col-md-2" style="background-color:lightblue;"></div>
+            
         </div>
     </div>
 </body>
