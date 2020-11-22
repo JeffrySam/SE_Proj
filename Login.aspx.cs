@@ -79,5 +79,10 @@ namespace SE_Proj
                 err.Visible = true;
             }
         }
+
+        protected void LoginButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
