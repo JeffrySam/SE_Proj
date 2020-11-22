@@ -39,7 +39,7 @@
 
     div.r
     {
-        font-size: 16px;
+        font-size: 18px;
         text-align:center;
 
     }
@@ -84,7 +84,6 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
@@ -109,28 +108,24 @@
         <div class="r">
            <br />
             <br />
-            <strong><asp:Label ID="Label1" runat="server" Text="(Displays finanical reports of the company within 10 year intervals):" ForeColor="Red" Font-Italic="True"></asp:Label></strong>
             <a href="#"><span class=""></span> Finance Reports</a>
        </div>
 
       <div class="r">
           <br />
           <br />
-          <strong><asp:Label ID="Label2" runat="server" Text="(Displays Company's Payable Acccount Information):" ForeColor="Red" Font-Italic="True"></asp:Label></strong>
           <a href="#"><span class=""></span> Accounts Payable</a>
       </div>
 
       <div class="r">
           <br />
           <br />
-          <strong><asp:Label ID="Label3" runat="server" Text="(Displays Company's Receivable Acccount Information):" ForeColor="Red" Font-Italic="True"></asp:Label></strong>
           <a href="#"><span class=""></span> Accounts Receivable</a>
       </div>
 
       <div class ="r">
           <br />
           <br />
-          <strong><asp:Label ID="Label4" runat="server" Text="(Displays Company's Tax Information within 10 year intervals):" ForeColor="Red" Font-Italic="True"></asp:Label></strong>
           <a href="#"><span class=""></span> Tax</a>
       </div>
 

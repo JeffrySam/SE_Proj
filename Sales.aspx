@@ -39,7 +39,7 @@
 
     div.r
     {
-        font-size: 16px;
+        font-size: 18px;
         text-align:center;
 
     }
@@ -84,7 +84,6 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
@@ -109,21 +108,18 @@
         <div class="r">
            <br />
             <br />
-            <strong><asp:Label ID="Label1" runat="server" Text="(Displays Company Sales within a 10 year time frame):" ForeColor="Red" Font-Italic="True"></asp:Label></strong>
             <a href="#"><span class=""></span>Sales Reports</a>
        </div>
 
       <div class="r">
           <br />
           <br />
-          <strong><asp:Label ID="Label2" runat="server" Text="(Ranking of employees with the most sales within the company):" ForeColor="Red" Font-Italic="True"></asp:Label></strong>
           <a href="#"><span class=""></span> Sales Leads</a>
       </div>
 
       <div class="r">
           <br />
           <br />
-          <strong><asp:Label ID="Label3" runat="server" Text="(Displays Employees names presenting demos):" ForeColor="Red" Font-Italic="True"></asp:Label></strong>
           <a href="#"><span class=""></span> Sales Demo</a>
       </div>
 
