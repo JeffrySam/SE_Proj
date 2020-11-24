@@ -97,13 +97,10 @@
     <div class="col-sm-2 sidenav">
     </div>
     <div class="col-sm-8 text-center"> 
-      <h class="t">
-          Sales Admin Portal
-      </h>
-      <h3 class="a">
-          <br />
-          Welcome to the Sales Admin Portal. Below are 3 links which will redirect you to different pages to complete the following task.
-      </h3>
+      <div class="jumbotron text-center">
+              <h1 class="display-4">Sales Admin Portal</h1>
+              <p class="lead">Welcome to the Sales Administrative Portal!</p>
+      </div>    
 
         <div class="r">
            <br />

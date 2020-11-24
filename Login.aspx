@@ -45,7 +45,7 @@
                     <div class="row text-center">
                         <form id="login" name="login" runat="server">
                             <div class="row">
-                                <label for="uname"><b>Username</b></label>
+                                <label for="uname"><b>Username</b></label>&nbsp;
                                 <input type="text" placeholder="Enter Username" name="uname" required/>
                             </div>
                             <br />

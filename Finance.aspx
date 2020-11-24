@@ -97,13 +97,10 @@
     <div class="col-sm-2 sidenav">
     </div>
     <div class="col-sm-8 text-center"> 
-      <h class="t">
-          Finance Admin Portal
-      </h>
-      <h3 class="a">
-          <br />
-          Welcome to the Finance Admin Portal. Below are 4 links which will redirect you to different pages to complete the following task.
-      </h3>
+      <div class="jumbotron text-center">
+              <h1 class="display-4">Finance Admin Portal</h1>
+              <p class="lead">Welcome to the Finance Administrative Portal!</p>
+     </div>    
 
         <div class="r">
            <br />
